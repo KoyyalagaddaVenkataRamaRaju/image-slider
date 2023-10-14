@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <link rel="stylesheet" href="task2.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="content">
+        <div class="images">
+            <img src="bg1.jpg" alt="">
+            <img src="bg2.jpeg" alt="">
+            <img src="bg3.jpg" alt="">
+            <img src="bg4.jpeg" alt="">
+            <img src="bg5.jpeg" alt="">
+        </div>
+        <div onclick="side_slide(-1)" class="slide left">
+            <span class="fa fa-angle-left"></span>
+        </div>
+        <div onclick="side_slide(1)" class="slide right">
+            <span class="fa fa-angle-right"></span>
+        </div>
+    </div>
+    <script src="task2.js"></script>
+</body>
+</html>
